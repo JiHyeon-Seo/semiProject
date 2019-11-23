@@ -1,0 +1,109 @@
+  /* ------바로가기아이콘--------- */
+
+  .mainicon{
+    width:100%;
+
+    height: auto;
+    margin: 0;
+    padding-left: 5%;
+    margin-top: 100px;
+  }
+  .iconwrap{
+    width: 23%;
+    margin: 0;
+    display: inline-block;
+  }
+  .icon{
+    position: relative;
+    width: 45%;
+    height: 45%;
+    padding: 0;
+    margin-left: 25%;
+  }
+  #icon1{
+    display: block;
+    padding: 0;
+    margin-left: 36%;
+  }
+ .iconcomment{
+   text-align: center;
+ }
+
+ #icon2{
+  display: block;
+  padding: 0;
+  margin-left: 30%;
+}
+#icon3{
+  display: block;
+  padding: 0;
+  margin-left: 38%;
+}
+#icon4{
+  display: block;
+  padding: 0;
+  margin-left: 40%;
+}
+@media(max-width:991px){
+
+  .icon{
+    position: relative;
+    width: 45%;
+    height: 45%;
+    padding: 0;
+    margin-left: 25%;
+  }
+  div.iconcomment{
+    width: 100%;
+    margin: 0;
+  }
+
+  #icon1{
+    display: block;
+    padding: 0;
+    margin-left: 30%;
+  }
+ #icon2{
+  display: block;
+  padding: 0;
+  margin-left: 16%;
+}
+#icon3{
+  display: block;
+  padding: 0;
+  margin-left: 32%;
+}
+#icon4{
+  display: block;
+  padding: 0;
+  margin-left: 33%;
+}
+}
+
+@media(max-width:768px){
+    .iconcomment{
+      display: none;
+    }
+    #icon1{
+      display: block;
+      padding: 0;
+      margin-left: 20%;
+    }
+   #icon2{
+    display: block;
+    padding: 0;
+    margin-left:2%;
+  }
+  #icon3{
+    display: block;
+    padding: 0;
+    margin-left: 23%;
+  }
+  #icon4{
+    display: block;
+    padding: 0;
+    margin-left: 25%;
+  }
+
+    
+}

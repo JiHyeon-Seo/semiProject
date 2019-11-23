@@ -1,0 +1,10 @@
+
+    /* --------------------------footer--------------------------- */
+    .footer {
+        height: 20vh;
+        width: 100%;
+  
+      }
+      .footer div{
+        font-weight: bolder;
+      }

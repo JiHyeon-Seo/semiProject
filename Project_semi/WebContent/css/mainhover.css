@@ -1,0 +1,44 @@
+/* ----------------------- 이미지 호버------------------- */
+#mainimg1 {
+    transform: translate(0, 0);
+    overflow: hidden;
+  }
+
+  #mainimg1>img {
+    transform: translate(+0.0%, +0.0%);
+    transition: transform 0.5s;
+  }
+
+  #mainimg1:hover>img {
+    transform: translate(+0.0%, +0.0%) scale(1.1);
+  }
+
+  .Storeimg {
+    transform: translate(0, 0);
+    overflow: hidden;
+  }
+
+  .Storeimg>img {
+    transform: translate(+0.0%, +0.0%);
+    transition: transform 0.5s;
+  }
+
+  .Storeimg:hover>img {
+    transform: translate(+0.0%, +0.0%) scale(1.1);
+  }
+ 
+
+
+  .mainrankphoto1 {
+    transform: translate(0, 0);
+    overflow: hidden;
+  }
+
+  .mainrankphoto1>img {
+    transform: translate(+0.0%, +0.0%);
+    transition: transform 0.5s;
+  }
+
+  .mainrankphoto1:hover>img {
+    transform: translate(+0.0%, +0.0%) scale(1.1);
+  }

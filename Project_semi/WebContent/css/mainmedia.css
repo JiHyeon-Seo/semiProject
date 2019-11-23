@@ -1,0 +1,116 @@
+   /* -----------------------------------미디어쿼리-------------------------------- */
+   @media(max-width:768px) {
+    .mainicon{
+    margin-top: 70px;
+    margin-right: 80px;
+  }
+
+  
+    #mainimg1 {
+      width: 100%;
+      
+    }
+
+    #mainknowhowcontent {
+      width: 45%;
+      height: 270px;
+      border: 1px solid;
+      box-sizing: border-box;
+      display: inline-block;
+      margin-left: 3%;
+      margin-top: 1.5%;
+    }
+
+    #mainknowhow {
+      height: 900px;
+    }
+   
+    #mainsotrewrap{
+    border: 1px solid black;
+    width: 90%;
+    height:960px;
+  }
+  .Storeimg {
+    width: 90%;
+    height: 200px;
+    border: 1px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+  }
+    .mainStore {
+      width: 47%;
+      height: 300px;
+      border: 1px solid;
+      box-sizing: border-box;
+      display: inline-block;
+      margin-left: 1.5%;
+      margin-top: 1.5%;
+    }
+    .storeinfo {
+    width: 90%;
+    height: 20%;
+    border: 1px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 5%;
+  }
+  .dc{
+    color: palevioletred; font-weight: 700;
+    font-size: 15px;
+  }
+  .price{
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .storetitle{
+    border: 1px solid; height: 60%;
+    font-size:13px ;
+    font-weight: 700;
+    padding: 1%;
+    word-break:break-all;
+    overflow: hidden;
+  } 
+  
+
+    #mainrank {
+    border: 1px solid;
+    margin: 10px auto;
+    margin-top: 70px;
+    width: 90%;
+    height: 630px;
+    
+  }
+    #mainphotowrap{
+    border: 1px solid;
+    margin: 10px auto;
+    margin-top: 70px;
+    width: 90%;
+    height: 350px;
+  }
+  #mainrankwrap1{
+    border: 1px solid;
+    width: 45%;
+    height: 90%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 1%;
+  }
+  .rankid{
+    font-size: 14px;
+  }
+  .ranktitle{
+    font-size: 14px;
+  }
+  .mainranklist ul>li{
+    display: inline-block;
+    vertical-align: top;
+    width: 70%;
+   margin-left: 15%;
+    height: 100%;  
+  }
+
+ }
+
