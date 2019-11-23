@@ -12,6 +12,8 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <meta name = "google-signin-client_id"content = "493274456662-6cmnbvtf19vn08d8od8vbp687ut5gups.apps.googleusercontent.com">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -48,7 +50,8 @@
 				<br>
 					<a href="/views/SearchId.jsp"><button type="button" class="btn btn-primary" name="idCheck" style="width:120px;">아이디찾기</button></a>
 					<a href="/views/pwdCheck.jsp"><button type="button" class="btn btn-primary" name="pwdCheck" style="width:170px;">비밀번호 재설정</button></a><br>
-				<a id="kakao-login-btn"></a>
+				<a id="kakao-login-btn"></a><br>
+				<div class="g-signin2" data-onsuccess="onSignIn"></div>
 			
 			
 			
@@ -105,6 +108,20 @@
         alert(JSON.stringify(err));
       }
     });
+    
+    
+    //구글 로그인 API
+       function onSignIn(googleUser) {
+    	   var profile = googleUser.getBasicProfile();
+    	 var id = profile.getId(); // Do not send to your backend! Use an ID token instead.
+    	 var name = profile.getName();
+    	 var email = profile.getEmail(); 
+    	 window.location.href="/googleLogin?id="+id +"&name=" + name + "&email=" +email; //sendRedirect랑 똑같은것.  
+    	 //이 url에 정보를 같이 실어서 보내는방법 ?물음표로 
+    	 
+    	   
+    	   // This is null if the 'email' scope is not present.
+    	 }
     
 </script>
 	</body>

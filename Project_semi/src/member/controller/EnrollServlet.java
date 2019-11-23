@@ -52,9 +52,7 @@ public class EnrollServlet extends HttpServlet {
 		// 받은결과에 따라 성공 실패 결과 내보내기
 		if (result > 0) {
 			response.sendRedirect("/views/EnrollAlert.html");
-		} else {
-
-		}
+		} 
 
 	}
 

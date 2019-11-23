@@ -28,7 +28,7 @@
       <div id="hedertitle"><a href="#" id="title">PetCom</a></div>
     </div>
     <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="#">PetCom</a>
+      <a class="navbar-brand" href="#">PetComssssssss</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03"
         aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
